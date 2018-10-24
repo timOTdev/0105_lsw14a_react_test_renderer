@@ -12,26 +12,23 @@ exports[`<App /> should match snapshot 1`] = `
       className="App-logo"
       src="logo.svg"
     />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      Learn React and Beyond
-    </a>
     <div>
       <h1>
-        ChildComponent
+        Child Component
       </h1>
     </div>
+    <div />
+    <h1
+      className="display"
+    >
+      Off
+    </h1>
+    <button
+      className="toggle-bn"
+      onClick={[Function]}
+    >
+      Toggle
+    </button>
   </header>
 </div>
 `;
