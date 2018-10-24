@@ -27,6 +27,11 @@ exports[`<App /> should match snapshot 1`] = `
     >
       Learn React and Beyond
     </a>
+    <div>
+      <h1>
+        ChildComponent
+      </h1>
+    </div>
   </header>
 </div>
 `;
